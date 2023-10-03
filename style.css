@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: radial-gradient(circle, #ffd200, #ffb900, #ffa000, #ff8500, #ff6900, #ff5900, #ff4700, #ff2f00, #ff2800, #ff1f00, #ff1400, #ff0000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    overflow: hidden;/
+}
+
+header {
+    background-color: #e62117;
+    color: white;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+
+    width: 350px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+#search {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 80px;
+    width: 300px;
+}
+
+#searchBtn {
+    padding: 16px 24px;
+    font-size: 20px;
+    border-radius: 80px;
+    background-color: #e62117;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.container {
+    width: 281px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 61%;
+    left: 50%;
+}
+
+
+element.style {
+    background: radial-gradient(circle at 50% 0%, rgb(239, 181, 73) 36%, rgb(255, 255, 255) 36%);
+}
+
+#card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: 20px;
+    /* Ajuste o espaço entre o card e a barra de pesquisa */
+}
+
+#card img {
+    display: block;
+    width: 130px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(to top right, transparent 49.5%, #ffffff 50%, transparent 50.5%, #ffffff 51%);
+    background-size: 15px 15px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* Ajuste o espaço entre a barra de pesquisa e o card */
+}
+
+#search {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#searchBtn {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #234179;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.hp {
+    width: 80px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+}
+
+.poke-name {
+    text-align: center;
+    font-weight: 600;
+}
+
+.types {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+}
+
+.hp span,
+.types span {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+}
+
+.types span {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stats p {
+    color: #d4d4d4;
+}
